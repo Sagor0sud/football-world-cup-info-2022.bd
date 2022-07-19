@@ -1,0 +1,28 @@
+body {
+    background: #FFFFFF;
+}
+
+/* ******************header part*********/
+
+.container {
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 120px;
+    margin-left: 139px;
+
+
+}
+
+.title {
+    width: 531px;
+    height: 424px;
+    font-size: 18px;
+}
+
+.container img {
+    padding-left: 10px;
+    width: 581px;
+    height: 613px;
+}
