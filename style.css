@@ -5,12 +5,12 @@ body {
 /* ******************header part*********/
 
 .view {
-    display: flex;
-    align-items: center;
+    width: 1321px;
+    height: 646px;
 }
 
 .header-part {
-    height: 646px;
+
     background-color: rgb(48, 37, 23);
     border-radius: 30px;
     display: grid;
@@ -53,8 +53,59 @@ h1 {
 }
 
 /* -----------------------------main part1-------------------------- */
+.conatiner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
 
+.navgation-system {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 312px;
+    height: 312px;
+    background-color: rgb(44, 31, 15);
+    border-radius: 8px;
+    margin-top: 20px;
+}
 
+.navgation-system a {
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: 500;
+    color: black;
+}
+
+.match-button {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    width: 252px;
+    height: 64px;
+    padding: 10px;
+}
+
+.Group-button {
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 252px;
+    height: 64px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.Blog-button {
+    text-align: center;
+    background-color: red;
+    width: 252px;
+    height: 64px;
+    border-radius: 15px;
+    padding: 10px;
+}
 
 
 
@@ -62,7 +113,7 @@ h1 {
 .Matchs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    margin: 20px;
 }
 
 .match {
@@ -84,7 +135,6 @@ h1 {
     border-radius: 10px;
     margin: 0;
     padding: 15px;
-    align-items: center;
     width: 100px;
     height: 32px;
 }
@@ -140,23 +190,20 @@ a {
 .fa-facebook {
     color: white;
     height: 150px;
-    width: 50px;
+    width: 30px;
 }
 
 .fa-instagram {
     color: white;
-    height: 150px;
-    width: 50px;
+    width: 30px;
 }
 
 .fa-linkedin {
     color: white;
-    height: 150px;
-    width: 50px;
+    width: 30px;
 }
 
 .fa-twitter {
     color: white;
-    height: 150px;
-    width: 50px;
+    width: 30px;
 }
