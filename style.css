@@ -3,26 +3,180 @@ body {
 }
 
 /* ******************header part*********/
-
-.container {
-    background: #161616;
-    border-radius: 30px;
+/* head main footer {
     display: flex;
-    margin-top: 50px;
-    margin-right: 120px;
-    margin-left: 139px;
+    flex-direction: column;
+    align-items: center;
+} */
+.view {
+    display: flex;
+    align-items: center;
+}
 
+.header-part {
+    height: 646px;
+    background-color: rgb(48, 37, 23);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 39px;
+    color: #FFFFFF;
 
 }
 
-.title {
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.titles {
     width: 531px;
     height: 424px;
-    font-size: 18px;
+    padding: 20px;
+    margin-left: 30px;
 }
 
-.container img {
+.live-button {
+    text-decoration: none;
+    background-image: linear-gradient(#cd1717, #ff0000);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+
+}
+
+.banner img {
     padding-left: 10px;
-    width: 581px;
-    height: 613px;
+    width: 450px;
+    height: 600px;
+
+
+}
+
+/* -----------------------------main part-------------------------- */
+/* aside {
+
+    width: 312px;
+    height: 312px;
+    margin-top: 130px;
+    background: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} */
+.Matchs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.match {
+    width: 312px;
+    height: 362px;
+    border-radius: 5px gray;
+
+}
+
+.match-banner {
+    margin-bottom: 20px;
+}
+
+.TICKETS-Button {
+    text-decoration: none;
+    background-image: linear-gradient(#a693f7, #8c9ff7);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 0;
+    padding: 15px;
+    align-items: center;
+    width: 100px;
+    height: 32px;
+}
+
+.match-duration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------footer--------------------------------- */
+footer {
+
+    height: 444px;
+    background-color: rgb(48, 37, 23);
+    color: #FFFFFF;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+}
+
+.Goal {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+hr {
+    text-align: center;
+    width: 95%;
+}
+
+.soial-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    margin: 10px;
+}
+
+.fa-facebook {
+    color: white;
+    height: 150px;
+    width: 50px;
+}
+
+.fa-instagram {
+    color: white;
+    height: 150px;
+    width: 50px;
+}
+
+.fa-linkedin {
+    color: white;
+    height: 150px;
+    width: 50px;
+}
+
+.fa-twitter {
+    color: white;
+    height: 150px;
+    width: 50px;
 }
